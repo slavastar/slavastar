@@ -3,4 +3,4 @@
 I am Vyacheslav Efimov
 
 * 🎓 Third-year student at ITMO University
-* ⭐️ Portfolio: [https://slavafive.github.io/Portfolio/](here)
+* ⭐️ Portfolio: [here](https://slavafive.github.io/Portfolio/)
