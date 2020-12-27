@@ -2,5 +2,6 @@
 
 I am Vyacheslav Efimov
 
-* 🎓 Third-year student at ITMO University
+* 🎓 Third-year bachelor student at ITMO University
+* 👨‍💻 GeekBrains iOS student
 * ⭐️ Portfolio: [here](https://slavafive.github.io/Portfolio/)
