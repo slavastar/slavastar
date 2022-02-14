@@ -29,9 +29,6 @@ About me:
 <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50"/>
 <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg" alt="Java" width="50" height="50"/>
 <img src="https://github.com/devicons/devicon/blob/master/icons/spring/spring-original-wordmark.svg" alt="Spring" width="50" height="50"/>
-  
-### iOS Development 
-<img src="https://github.com/devicons/devicon/blob/master/icons/swift/swift-original.svg" alt="Java" width="50" height="50"/>
 
 ## GitHub stats
 [![My GitHub stats](https://github-readme-stats.vercel.app/api?username=slavafive&card_width=300)](https://github.com/slavafive/github-readme-stats)
