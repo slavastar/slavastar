@@ -6,7 +6,7 @@ I am a passionate Software Engineer and in love with learning new skills! My sph
 About me:
 
 * 🎓 Fourth year bachelor student at [ITMO University](https://en.itmo.ru)
-* 👨‍💻 Data Scientist at [Sberbank](https://www.sberbank.ru/ru/person)
+* 👨‍💻 ML Engineer at [Sberbank](https://www.sberbank.ru/ru/person)
 * ⭐️ Portfolio: [here](https://slavafive.github.io/portfolio/)
 * 📭 Connect with me: [Telegram](https://t.me/slavafive) | [LinkedIn](https://www.linkedin.com/in/vyacheslav-efimov-a190a7210/) | [Kaggle](https://www.kaggle.com/vyacheslavefimov) | [LeetCode](https://leetcode.com/slaveau) | [VK](https://vk.com/slaveau)
 * 🚀 Let me know if you want to collaborate on an interesting project, hackhaton, startup or blogging
