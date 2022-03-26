@@ -8,7 +8,7 @@ About me:
 * 🎓 Fourth year bachelor student at [ITMO University](https://en.itmo.ru)
 * 👨‍💻 ML Engineer at [Sberbank](https://www.sberbank.ru/ru/person)
 * ⭐️ Portfolio: [here](https://slavafive.github.io/portfolio/)
-* 📭 Connect with me: [Telegram](https://t.me/slavafive) | [LinkedIn](https://www.linkedin.com/in/vyacheslav-efimov-a190a7210/) | [Kaggle](https://www.kaggle.com/vyacheslavefimov) | [LeetCode](https://leetcode.com/slaveau) | [VK](https://vk.com/slaveau)
+* 📭 Connect with me: [Telegram](https://t.me/slavafive) | [LinkedIn](https://www.linkedin.com/in/vyacheslav-efimov-a190a7210/) | [VK](https://vk.com/slavadev)
 * 🚀 Let me know if you want to collaborate on an interesting project, hackhaton, startup or blogging
 * 📗 Blogger: check my recent posts on [Medium](https://medium.com/@slaveau)!
 
