@@ -7,7 +7,7 @@ About me:
 
 * 🎓 Fourth year bachelor student at [ITMO University](https://en.itmo.ru)
 * 👨‍💻 Data Scientist at [Sberbank](https://www.sberbank.ru/ru/person)
-* ⭐️ Resume: [here](https://slavafive.github.io/resume/)
+* ⭐️ Resume: [here](http://slavapro.com)
 * 📭 Connect with me: [Telegram](https://t.me/slavafive) | [LinkedIn](https://www.linkedin.com/in/vyacheslav-efimov-a190a7210/) | [VK](https://vk.com/slavadev)
 * 🚀 Let me know if you want to collaborate on an interesting project, hackhaton, startup or blogging
 * 📗 Blogger: check my recent posts on [Medium](https://medium.com/@slaveau)!
