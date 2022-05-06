@@ -7,10 +7,10 @@ About me:
 
 * 🎓 Fourth year bachelor student at [ITMO University](https://en.itmo.ru)
 * 👨‍💻 Data Scientist at [Sberbank](https://www.sberbank.ru/ru/person)
+* 📗 Blogger: check my recent posts on [Medium](https://medium.com/@slaveau)!
 * ⭐️ Resume: [here](https://slavapro.com)
 * 📭 Connect with me: [Telegram](https://t.me/slavafive) | [LinkedIn](https://www.linkedin.com/in/vyacheslav-efimov-a190a7210/) | [VK](https://vk.com/slavadev)
 * 🚀 Let me know if you want to collaborate on an interesting project, hackhaton, startup or blogging
-* 📗 Blogger: check my recent posts on [Medium](https://medium.com/@slaveau)!
 
 <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@slaveau/0"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@slaveau/0" alt="Recent Article 0">
 <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@slaveau/1"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@slaveau/1" alt="Recent Article 1">
