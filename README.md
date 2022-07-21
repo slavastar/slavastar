@@ -5,7 +5,7 @@ I am a passionate Software Engineer and in love with learning new skills! My sph
 
 About me:
 
-* 🎓 Computer Science degree at [ITMO University](https://en.itmo.ru)
+* 🎓 Computer Science bachelor graduate at [ITMO University](https://en.itmo.ru)
 * 👨‍💻 Machine Learning Engineer at [Sberbank](https://www.sberbank.ru/ru/person)
 * 📗 Blogger: check my recent posts on [Medium](https://medium.com/@slaveau)!
 * ⭐️ Resume: [here](https://slavapro.com)
