@@ -6,7 +6,7 @@ I am a passionate software engineer. I have a deep interest in software developm
 About me:
 
 * 🎓 Computer Science bachelor graduate at [ITMO University](https://en.itmo.ru)
-* 👨‍💻 Machine Learning Engineer at [Sberbank](https://www.sberbank.ru/ru/person)
+* 👨‍💻 Software Engineer | Machine Learning Engineer
 * 📗 Blogger: check my recent posts on [Medium](https://medium.com/@slaveau)!
 * ⭐️ Resume: [here](https://slavafive.github.io/resume/)
 * 📭 Connect with me: [Telegram](https://t.me/slavafive) | [LinkedIn](https://www.linkedin.com/in/vyacheslav-efimov/)
