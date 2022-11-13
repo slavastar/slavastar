@@ -7,7 +7,7 @@ About me:
 
 * 🎓 Computer Science bachelor graduate at [ITMO University](https://en.itmo.ru)
 * 👨‍💻 Software Engineer | Machine Learning Engineer
-* 📗 Blogger: check my recent posts on [Medium](https://medium.com/@slaveau)!
+* 📗 Blogger: check my recent posts on [Medium](https://medium.com/@slavahead)!
 * ⭐️ Resume: [here](https://slavafive.github.io/resume/)
 * 📭 Connect with me: [Telegram](https://t.me/slavafive) | [LinkedIn](https://www.linkedin.com/in/vyacheslav-efimov/)
 * 🚀 Let me know if you want to collaborate on an interesting project, hackhaton, startup or blogging
