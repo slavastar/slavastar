@@ -8,7 +8,7 @@ About me:
 * 🎓 Software Engineering bachelor graduate at [ITMO University](https://en.itmo.ru)
 * 👨‍💻 Software Engineer | Machine Learning Engineer
 * 📗 Blogger: check my recent posts on [Medium](https://medium.com/@slavahead)!
-* ⭐️ Portfolio: [here](https://carrd.co/dashboard/4361170716665304/edit)
+* ⭐️ Portfolio: [here](https://slava.carrd.co)
 * 📭 Connect with me: [LinkedIn](https://www.linkedin.com/in/vyacheslav-efimov/)
 * 🚀 Let me know if you want to collaborate on an interesting project, hackhaton, startup or blogging
 
