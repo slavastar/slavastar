@@ -11,11 +11,4 @@ About me:
 * ⭐️ Portfolio: [here](https://slava.carrd.co)
 * 📭 Connect with me: [LinkedIn](https://www.linkedin.com/in/vyacheslav-efimov/)
 * 🚀 Let me know if you want to collaborate on an interesting project, hackhaton, startup or blogging
-
-<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@slavahead/0"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@slavahead/0" alt="Recent Article 0">
-<a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@slavahead/1"><img src="https://github-readme-medium-recent-article.vercel.app/medium/@slavahead/1" alt="Recent Article 1">
-
-  
-<!-- ## GitHub stats
-[![My GitHub stats](https://github-readme-stats.vercel.app/api?username=slavastar&card_width=300)](https://github.com/slavafive/github-readme-stats) -->
   
