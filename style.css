@@ -774,10 +774,30 @@ img { max-width: 100%; display: block; }
     background: var(--dark);
 }
 
-.testimonials-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.testimonials-carousel {
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin: 0 -80px;
+    padding: 0 80px;
+    mask-image: linear-gradient(to right, transparent, black 80px, black calc(100% - 80px), transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 80px, black calc(100% - 80px), transparent);
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.testimonials-carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.testimonials-track {
+    display: flex;
     gap: 32px;
+    cursor: grab;
+    user-select: none;
+}
+
+.testimonials-track.dragging {
+    cursor: grabbing;
 }
 
 .testimonial-card {
@@ -788,12 +808,14 @@ img { max-width: 100%; display: block; }
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    transition: var(--transition);
+    min-width: 480px;
+    max-width: 480px;
+    flex-shrink: 0;
+    transition: border-color 0.3s ease;
 }
 
 .testimonial-card:hover {
     border-color: rgba(255, 204, 0, 0.12);
-    transform: translateY(-4px);
 }
 
 .quote-icon {
@@ -1168,7 +1190,7 @@ img { max-width: 100%; display: block; }
     .tag-3 { right: -40px; }
 
     .services-grid { grid-template-columns: 1fr; }
-    .testimonials-grid { grid-template-columns: 1fr; }
+    .testimonial-card { min-width: 400px; max-width: 400px; }
     .blog-grid { grid-template-columns: repeat(2, 1fr); }
     .strip-items { grid-template-columns: repeat(2, 1fr); }
 }
@@ -1193,6 +1215,9 @@ img { max-width: 100%; display: block; }
 
     .blog-grid { grid-template-columns: 1fr; }
     .strip-items { grid-template-columns: 1fr; }
+
+    .testimonials-carousel { margin: 0 -24px; padding: 0 24px; mask-image: linear-gradient(to right, transparent, black 24px, black calc(100% - 24px), transparent); -webkit-mask-image: linear-gradient(to right, transparent, black 24px, black calc(100% - 24px), transparent); }
+    .testimonial-card { min-width: 300px; max-width: 300px; padding: 28px; }
 
     .case-card { padding: 28px; }
     .case-title { font-size: 1.2rem; }

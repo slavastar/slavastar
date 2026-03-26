@@ -81,6 +81,51 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 400);
     }, 5000);
 
+    // ---- Testimonials drag-to-scroll ----
+    const track = document.querySelector('.testimonials-track');
+    if (track) {
+        let isDown = false;
+        let startX;
+        let scrollLeft;
+
+        track.addEventListener('mousedown', (e) => {
+            isDown = true;
+            track.classList.add('dragging');
+            startX = e.pageX - track.parentElement.offsetLeft;
+            scrollLeft = track.parentElement.scrollLeft;
+        });
+
+        track.addEventListener('mouseleave', () => {
+            isDown = false;
+            track.classList.remove('dragging');
+        });
+
+        track.addEventListener('mouseup', () => {
+            isDown = false;
+            track.classList.remove('dragging');
+        });
+
+        track.addEventListener('mousemove', (e) => {
+            if (!isDown) return;
+            e.preventDefault();
+            const x = e.pageX - track.parentElement.offsetLeft;
+            const walk = (x - startX) * 1.5;
+            track.parentElement.scrollLeft = scrollLeft - walk;
+        });
+
+        // Touch support
+        track.addEventListener('touchstart', (e) => {
+            startX = e.touches[0].pageX - track.parentElement.offsetLeft;
+            scrollLeft = track.parentElement.scrollLeft;
+        }, { passive: true });
+
+        track.addEventListener('touchmove', (e) => {
+            const x = e.touches[0].pageX - track.parentElement.offsetLeft;
+            const walk = (x - startX) * 1.5;
+            track.parentElement.scrollLeft = scrollLeft - walk;
+        }, { passive: true });
+    }
+
     // ---- Parallax floating tags ----
     const floatingTags = document.querySelectorAll('.floating-tag');
     let ticking = false;
