@@ -65,7 +65,8 @@ document.addEventListener('DOMContentLoaded', () => {
         'ML pipelines at scale.',
         'computer vision apps.',
         'NLP & LLM solutions.',
-        'AI products from 0 to 1.'
+        'AI products from 0 to 1.',
+        'full-stack web apps.'
     ];
     let phraseIndex = 0;
 
