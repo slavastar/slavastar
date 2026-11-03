@@ -1574,3 +1574,418 @@ img { max-width: 100%; display: block; }
 ::-webkit-scrollbar-track { background: var(--black); }
 ::-webkit-scrollbar-thumb { background: var(--dark); border-radius: 4px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--gray-800); }
+
+/* =====================================================================
+   LUXURY THEME  ("quiet luxury": warm black, ivory, muted gold, serif)
+   Everything below overrides the styles above. To go back to the
+   previous look, delete this whole block and restore the old font link.
+   ===================================================================== */
+
+:root {
+    --black: #0b0a08;
+    --dark: #131210;
+    --dark-light: #1b1915;
+    --yellow: #c8a96a;
+    --yellow-hover: #d8bb82;
+    --gray-200: #e8e2d6;
+    --gray-400: #a8a194;
+    --gray-500: #8b8478;
+    --gray-600: #6b655b;
+    --gray-800: #2a2722;
+    --radius: 2px;
+    --radius-lg: 4px;
+    --radius-xl: 6px;
+    --gold-line: rgba(200, 169, 106, 0.22);
+    --ivory: #f4efe6;
+    --ink: #1a1814;
+    --gold-ink: #8a6a2a;
+    --serif: 'Cormorant Garamond', 'Times New Roman', serif;
+    --sans: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+    font-family: var(--sans);
+    font-weight: 400;
+}
+
+::selection { background: var(--yellow); color: var(--black); }
+
+/* ---- Serif headings ---- */
+.hero-title,
+.section-title,
+.cta-title,
+.case-title,
+.service-card h3,
+.blog-card-title,
+.toptal-text h3 {
+    font-family: var(--serif);
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    line-height: 1.08;
+}
+
+.hero-title { font-size: clamp(2.9rem, 5.4vw, 4.8rem); }
+.section-title { font-size: clamp(2.4rem, 4.6vw, 3.8rem); }
+.cta-title { font-size: clamp(2.2rem, 4.2vw, 3.4rem); }
+.case-title { font-size: 1.9rem; }
+.service-card h3 { font-size: 1.6rem; letter-spacing: 0; }
+.blog-card-title { font-size: 1.4rem; letter-spacing: 0; line-height: 1.2; }
+
+.strip-title {
+    font-family: var(--serif);
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+
+.accent { font-style: italic; }
+.btn .accent, .stat .accent { font-style: normal; }
+
+/* ---- Small labels: tracked uppercase sans instead of mono ---- */
+.hero-label,
+.floating-tag,
+.section-label,
+.service-tools span,
+.case-company,
+.case-label,
+.strip-place,
+.testimonial-headline,
+.toptal-specs-label,
+.toptal-specs-list li {
+    font-family: var(--sans);
+}
+
+.section-label {
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.32em;
+}
+
+.section-label::after {
+    content: '';
+    display: block;
+    width: 44px;
+    height: 1px;
+    margin: 18px auto 0;
+    background: var(--yellow);
+    opacity: 0.7;
+}
+
+.about-text-col .section-label::after { margin-left: 0; }
+
+/* ---- Navigation ---- */
+.nav.scrolled {
+    background: rgba(11, 10, 8, 0.88);
+    border-bottom: 1px solid var(--gold-line);
+}
+
+.nav-logo {
+    font-family: var(--serif);
+    font-size: 1.9rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+}
+
+.nav-links a {
+    font-size: 0.74rem;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+}
+
+.nav-links a:not(.nav-cta)::after { height: 1px; }
+
+.nav-cta {
+    border-radius: 2px;
+    padding: 11px 24px;
+    letter-spacing: 0.16em !important;
+}
+
+.nav-cta:hover { box-shadow: none; transform: none; }
+
+/* ---- Buttons ---- */
+.btn {
+    border-radius: 2px;
+    font-size: 0.74rem;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    padding: 17px 36px;
+}
+
+.btn-lg { padding: 20px 44px; font-size: 0.78rem; }
+
+.btn-primary:hover {
+    transform: none;
+    box-shadow: 0 10px 30px rgba(200, 169, 106, 0.18);
+}
+
+.btn-outline {
+    border: 1px solid var(--gold-line);
+    color: var(--gray-200);
+}
+
+.btn-outline:hover { transform: none; border-color: var(--yellow); color: var(--yellow); }
+
+/* ---- Hero ---- */
+.hero-bg-grid {
+    background-image:
+        linear-gradient(rgba(200, 169, 106, 0.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(200, 169, 106, 0.035) 1px, transparent 1px);
+    background-size: 90px 90px;
+}
+
+.hero-label {
+    border-radius: 2px;
+    border: 1px solid var(--gold-line);
+    background: transparent;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.26em;
+}
+
+.hero-label::before { background: var(--yellow); }
+
+.hero-subtitle {
+    font-size: 1.05rem;
+    font-weight: 300;
+    color: var(--gray-400);
+}
+
+.hero-trust {
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.025);
+    border: 1px solid var(--gold-line);
+    box-shadow: none;
+}
+
+.trust-number {
+    font-family: var(--serif);
+    font-size: 2.2rem;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+
+.trust-label {
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+
+.trust-divider { background: var(--gold-line); }
+
+.hero-image-container { border-radius: 50%; }
+
+/* Decorative background images were bright yellow: tone them down to match the gold */
+.bg-element {
+    opacity: 0.35;
+    filter: saturate(0.6);
+}
+
+.trust-label { white-space: nowrap; letter-spacing: 0.1em; font-size: 0.64rem; }
+
+/* Quiet, static tags around the portrait (z-index keeps them above the photo now that they no longer animate) */
+.floating-tag {
+    z-index: 2;
+    animation: none;
+    border-radius: 2px;
+    background: rgba(11, 10, 8, 0.55);
+    border: 1px solid rgba(200, 169, 106, 0.4);
+    box-shadow: none;
+    font-size: 0.64rem;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    padding: 8px 14px;
+}
+
+/* ---- Cards ---- */
+.service-card,
+.case-card,
+.blog-card,
+.hackathon-strip {
+    border: 1px solid var(--gold-line);
+    border-radius: 4px;
+}
+
+.service-card:hover,
+.blog-card:hover {
+    transform: none;
+    border-color: rgba(200, 169, 106, 0.55);
+    box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+}
+
+.case-card:hover { border-color: rgba(200, 169, 106, 0.45); }
+
+.service-card::before {
+    height: 1px;
+    background: linear-gradient(90deg, var(--yellow), transparent);
+}
+
+.service-icon {
+    border-radius: 2px;
+    background: transparent;
+    border: 1px solid var(--gold-line);
+}
+
+.case-company {
+    font-size: 0.72rem;
+    letter-spacing: 0.24em;
+}
+
+.case-label {
+    letter-spacing: 0.22em;
+}
+
+.result-badge {
+    border-radius: 2px;
+    background: transparent;
+    border: 1px solid var(--gold-line);
+}
+
+.blog-card-number {
+    font-family: var(--serif);
+    font-size: 3.4rem;
+    font-weight: 500;
+    color: rgba(200, 169, 106, 0.28);
+}
+
+.blog-card-link {
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+}
+
+.blog-card:hover .blog-card-link { letter-spacing: 0.24em; }
+
+/* ---- Contact ---- */
+.cta-card {
+    border: 1px solid var(--gold-line);
+    border-radius: 4px;
+}
+
+.cta-card::before {
+    background: radial-gradient(ellipse at top center, rgba(200, 169, 106, 0.07) 0%, transparent 60%);
+}
+
+.form-input {
+    font-family: var(--sans);
+    border-radius: 2px;
+    border: 1px solid rgba(200, 169, 106, 0.25);
+}
+
+.form-input:focus {
+    border-color: var(--yellow);
+    box-shadow: 0 0 0 3px rgba(200, 169, 106, 0.1);
+}
+
+.form-label {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+}
+
+.contact-form-title::before,
+.contact-form-title::after { background: var(--gold-line); }
+
+.footer { border-top: 1px solid var(--gold-line); }
+
+/* ---- Ivory sections (Testimonials, About, Toptal) ---- */
+.testimonials,
+.about,
+.toptal {
+    background: var(--ivory);
+}
+
+.testimonials::before {
+    background:
+        radial-gradient(circle 340px at 14% 62%, rgba(200, 169, 106, 0.38), transparent 70%),
+        radial-gradient(circle 360px at 86% 55%, rgba(176, 150, 120, 0.26), transparent 70%),
+        radial-gradient(circle 260px at 50% 100%, rgba(255, 255, 255, 0.6), transparent 70%);
+}
+
+.toptal::before {
+    background:
+        radial-gradient(circle 300px at 26% 80%, rgba(200, 169, 106, 0.4), transparent 70%),
+        radial-gradient(circle 340px at 82% 85%, rgba(176, 150, 120, 0.22), transparent 70%),
+        radial-gradient(circle 220px at 52% 92%, rgba(255, 255, 255, 0.55), transparent 70%);
+}
+
+.testimonials .section-label,
+.about .section-label,
+.toptal .section-label { color: var(--gold-ink); }
+
+.testimonials .section-title,
+.about .section-title,
+.toptal .section-title { color: var(--ink); }
+
+.testimonials .section-title .accent,
+.about .section-title .accent,
+.toptal .section-title .accent { color: var(--gold-ink); }
+
+.about .about-desc,
+.toptal .section-desc { color: #4d483f; }
+
+.testimonials .testimonial-card {
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.55);
+    border: 1px solid rgba(138, 106, 42, 0.22);
+    box-shadow: 0 14px 40px rgba(60, 45, 20, 0.08);
+}
+
+.testimonials .testimonial-card:hover { border-color: rgba(138, 106, 42, 0.55); }
+
+.testimonials .testimonial-headline {
+    font-family: var(--serif);
+    font-size: 1.45rem;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-transform: none;
+    color: var(--gold-ink);
+    line-height: 1.2;
+}
+
+.testimonials .testimonial-quote p { color: #4d483f; }
+
+.testimonials .testimonial-quote strong,
+.testimonials .testimonial-name { color: var(--ink); }
+
+.testimonials .testimonial-author { border-top-color: rgba(138, 106, 42, 0.18); }
+
+.testimonial-avatar { border-color: rgba(138, 106, 42, 0.45); }
+
+.about .about-image-container {
+    border: 3px solid var(--ivory);
+    box-shadow: 0 0 0 1px rgba(138, 106, 42, 0.6), 0 24px 50px rgba(60, 45, 20, 0.2);
+}
+
+.toptal-badge-wrap {
+    border-radius: 6px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border: 1px solid rgba(138, 106, 42, 0.25);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9), 0 22px 50px rgba(60, 45, 20, 0.14);
+}
+
+.toptal-specs-label {
+    letter-spacing: 0.22em;
+    font-weight: 600;
+}
+
+.toptal-specs-list li {
+    border-radius: 2px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gold-ink);
+    background: rgba(255, 255, 255, 0.6);
+    border: 1px solid rgba(138, 106, 42, 0.35);
+    box-shadow: none;
+}
+
+@media (max-width: 768px) {
+    .hero-title { font-size: clamp(2.5rem, 10vw, 3.2rem); }
+    .nav-logo { font-size: 1.6rem; }
+}
