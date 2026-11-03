@@ -10,9 +10,10 @@
 
 ### Senior Machine Learning Engineer, *Contract*
 **Aspect Health** — US health-tech startup building AI-driven health products | Remote, USA
-`Nov 2025 - Mar 2026`
+`Nov 2025 - Mar 2026 + Oct 2026`
 
 - Owned the AI recommendation service from 0 → 1: production-ready meal generation engine leveraging generative AI (LLMs and image generation) with integrated price optimization, cutting meal plan costs.
+- Provided technical consulting on an AI system: reviewed its design, identified improvement areas and recommended solutions based on research and experiments.
 
 ---
 
@@ -30,8 +31,8 @@
 **Towards Data Science** — the world's leading publication for data science, AI, and ML professionals | Remote
 `Apr 2023 - Present`
 
-- Wrote 60+ machine learning articles on my Data Science blog, all published on Towards Data Science.
-- Built an audience of 3.7K+ followers on Medium.
+- Wrote 70+ machine learning articles on my Data Science blog, all published on Towards Data Science.
+- Built an audience of 3.8K+ followers on Medium.
 - Best article series: [Reinforcement Learning](https://medium.com/@slavahead/list/reinforcement-learning-78e5b7cb3292) | [Similarity Search](https://medium.com/@slavahead/list/similarity-search-598d963ad35e) | [Large Language Models](https://medium.com/@slavahead/list/large-language-models-4d85e1fe0b9a) | [Computer Vision](https://medium.com/@slavahead/list/computer-vision-4fd1e040456b)
 
 ---

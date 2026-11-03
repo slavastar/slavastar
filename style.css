@@ -908,6 +908,24 @@ img { max-width: 100%; display: block; }
     margin-bottom: 0;
 }
 
+.toptal {
+    background: var(--black);
+}
+
+.toptal .section-header {
+    margin-bottom: 24px;
+}
+
+.toptal-badge-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.toptal-badge-wrap iframe {
+    border: 0;
+    background: transparent;
+}
+
 @media (max-width: 1024px) {
     .about-layout {
         grid-template-columns: 1fr;
